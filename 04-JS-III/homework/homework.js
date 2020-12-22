@@ -1,7 +1,5 @@
 // No cambies los nombres de las funciones.
 
-const array= [18,21,24];
-
 function devolverPrimerElemento(array) {
   // Devuelve el primer elemento de un array
   // Tu código:
@@ -80,7 +78,6 @@ function promedioResultadosTest(resultadosTest) {
   // "resultadosTest" debe ser una matriz de enteros (int/integers)
   // Itera (en un bucle) los elementos del array, calcula y devuelve el promedio de puntajes
   // Tu código:
-  const resultadosTest= [6,18]; 
   return agregarNumeros(resultadosTest)/resultadosTest.length;
 }
 
@@ -88,7 +85,6 @@ function numeroMasGrande(numeros) {
   // "numeros" debe ser una matriz de enteros (int/integers)
   // Devuelve el número más grande
   // Tu código:
-  const numeros[13,1,18,29];
   var max=0;
   for (var i=0; i< numeros.length; i++)
     if (max< numeros[i])
